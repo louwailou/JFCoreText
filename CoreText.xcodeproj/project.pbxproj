@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		804A30061A25A47500784959 /* imageName.png in Resources */ = {isa = PBXBuildFile; fileRef = 804A30051A25A47500784959 /* imageName.png */; };
 		8080AD881A24345F00A9F8FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8080AD871A24345F00A9F8FF /* main.m */; };
 		8080AD8B1A24345F00A9F8FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8080AD8A1A24345F00A9F8FF /* AppDelegate.m */; };
 		8080AD8E1A24345F00A9F8FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8080AD8D1A24345F00A9F8FF /* ViewController.m */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		804A30051A25A47500784959 /* imageName.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imageName.png; sourceTree = "<group>"; };
 		8080AD821A24345F00A9F8FF /* CoreText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreText.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8080AD861A24345F00A9F8FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8080AD871A24345F00A9F8FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 			children = (
 				8080AD891A24345F00A9F8FF /* AppDelegate.h */,
 				8080AD8A1A24345F00A9F8FF /* AppDelegate.m */,
+				804A30051A25A47500784959 /* imageName.png */,
 				8080AD8C1A24345F00A9F8FF /* ViewController.h */,
 				8080AD8D1A24345F00A9F8FF /* ViewController.m */,
 				8080AD8F1A24345F00A9F8FF /* Main.storyboard */,
@@ -216,6 +219,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				804A30061A25A47500784959 /* imageName.png in Resources */,
 				8080AD911A24345F00A9F8FF /* Main.storyboard in Resources */,
 				8080AD961A24345F00A9F8FF /* LaunchScreen.xib in Resources */,
 				8080AD931A24345F00A9F8FF /* Images.xcassets in Resources */,
@@ -432,6 +436,7 @@
 				8080ADA71A24345F00A9F8FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8080ADA81A24345F00A9F8FF /* Build configuration list for PBXNativeTarget "CoreTextTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +445,7 @@
 				8080ADAA1A24345F00A9F8FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
